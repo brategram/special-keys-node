@@ -14,11 +14,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "jest --config jestconfig.json",
-    "release": "standard-version",
-    "prepare": "npm run build",
-    "release:dry-run": "standard-version --dry-run",
-    "build": "tsc"
+    "test": "jest --config jestconfig.json"
   },
   "devDependencies": {
     "@types/jest": "^25.2.2",
