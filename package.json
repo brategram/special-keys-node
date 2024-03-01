@@ -1,0 +1,44 @@
+{
+  "name": "special-keys-node",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "description": "Custom React hook for handling KeyboardEvents",
+  "keywords": [
+    "React",
+    "KeyboardEvent",
+    "Custom hook"
+  ],
+  "author": {
+    "name": "brategram"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "release": "standard-version",
+    "prepare": "npm run build",
+    "release:dry-run": "standard-version --dry-run",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.2",
+    "@types/react": "^16.9.35",
+    "jest": "^26.0.1",
+    "standard-version": "^8.0.0",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "typescript": "^3.9.2"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brategram/special-keys-node.git"
+  }
+}
